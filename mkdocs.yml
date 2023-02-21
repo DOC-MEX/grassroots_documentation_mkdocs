@@ -18,6 +18,8 @@ theme:
         name: Switch to light mode
   features:
     - navigation.sections
+extra:
+    homepage: https://grassroots.tools/newdocs
     
     
     
