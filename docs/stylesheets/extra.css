@@ -1,0 +1,9 @@
+[data-md-color-scheme="grassroots"] {
+    --md-primary-fg-color:        #2C3E50;
+    --md-primary-fg-color--light: #7992ac;
+    --md-primary-fg-color--dark:  #155fa8;
+  }
+[data-md-color-scheme="slate"] {
+    --md-hue: 210;  
+  }
+ 
