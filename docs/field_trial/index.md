@@ -1,3 +1,4 @@
+##Introduction
 
 The Grassroots system running at the Earlham Institute (EI) is being used to gather and catalogue the Field Trial information generated within the Designing Future Wheat (DFW) programme. 
 Typically this information is collected within spreadsheets and Work Package 4 (WP4) has been working with field managers and biologists to standardise these spreadsheets and collection mechanisms.
@@ -36,22 +37,24 @@ To submit data into the DFW Field Trial system, you need to have an ORCID - a un
 
 In this case, we can attribute your field trials to you as collectors of this information within DFW, but also control who is able to submit data thus preventing people from gaining access to the system. 
 
-Registering for an ORCID takes a couple of minutes and will not expose any personal information about you. You can follow the [instructions for getting an ORCID](orcid.md).
+Registering for an ORCID takes a couple of minutes and will not expose any personal information about you. You can follow the [instructions for getting an ORCID](https://grassroots.tools/docs/user/services/field_trial/orcid.md).
 
 ### Submitting data:
 
- * [Submitting a Programme](submit_programme.md)
- * [Submitting a Trial](submit_trial.md)
- * [Submitting a Location](submit_location.md)
- * [Submitting a Study](submit_study.md)
- * [Submitting Plots](submit_plots.md)
+ * [Submitting a Programme](https://grassroots.tools/docs/user/services/field_trial/submit_programme.md)
+ * [Submitting a Trial](https://grassroots.tools/docs/user/services/field_trial/submit_trial.md)
+ * [Submitting a Location](https://grassroots.tools/docs/user/services/field_trial/submit_location.md)
+ * [Submitting a Study](https://grassroots.tools/docs/user/services/field_trial/submit_study.md)
+ * [Submitting Plots](https://grassroots.tools/docs/user/services/field_trial/submit_plots.md)
 
-### Searching the system:
+### Searching and visualising data:
 
-* [Field Trial Search Portal](search_portal.md)
-* [Search Measured Phenotype Variables](search_measured_variables.md)
-* [Search Treatments](search_treatments.md)
+* [Field Trial Main Portal](https://grassroots.tools/docs/user/services/field_trial/fieldtrials_general_table.md)
+* [Field Trial Study Info](https://grassroots.tools/docs/user/services/field_trial/fieldtrials_study_table.md)
+* [Field Trial Search Portal](https://grassroots.tools/docs/user/services/field_trial/search_portal.md)
+* [Search Measureld Phenotype Variables](https://grassroots.tools/docs/user/services/field_trial/search_measured_variables.md)
+* [Search Treatments](https://grassroots.tools/docs/user/services/field_trial/search_treatments.md)
 
 ### Getting the data:
-* [Downloading Study data](download_study_fd.md)
+* [Downloading Study data](https://grassroots.tools/docs/user/services/field_trial/download_study_fd.md)
          
