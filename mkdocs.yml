@@ -31,6 +31,7 @@ extra_css:
 plugins:
   - mkdocstrings
   - search
+  - glightbox
 
 markdown_extensions:
   - attr_list
@@ -45,9 +46,10 @@ nav:
         - Submitting trials:     field_trial/submit_trial.md
         - Submitting studies:   field_trial/submit_study.md
         - Submitting plots:     field_trial/submit_plots.md
+      
       - Searching & Visualising Data:
-        - Main Field trails Portal:  field_trial/fieldtrials_general_table.md
-        - Field trail study:       field_trial/fieldtrials_study_table.md
+        - Main Field Trails Portal:  field_trial/fieldtrials_general_table.md
+        - Plot Data:     field_trial/fieldtrials_study_table.md
 
         - Field trials Search Portal:   field_trial/search_portal.md        
         - Measured Phenotype variables: field_trial/search_measured_variables.md
