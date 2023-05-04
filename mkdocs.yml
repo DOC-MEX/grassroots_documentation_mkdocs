@@ -50,6 +50,7 @@ nav:
       - Searching & Visualising Data:
         - Main Field Trails Portal:  field_trial/fieldtrials_general_table.md
         - Plot Data:     field_trial/fieldtrials_study_table.md
+        - Heatmaps:     field_trial/heatmaps.md
 
         - Field trials Search Portal:   field_trial/search_portal.md        
         - Measured Phenotype variables: field_trial/search_measured_variables.md
