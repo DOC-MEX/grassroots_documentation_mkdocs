@@ -56,7 +56,7 @@ nav:
         - Measured Phenotype variables: field_trial/search_measured_variables.md
         - Treatments:                   field_trial/search_treatments.md
       - Download Data:
-        - Frictionless Data: field_trial/download_study_fd.md 
-        - CSV: field_trial/download_study_fd.md 
+        - Frictionless Data Package: field_trial/download_study_fd.md 
+        - CSV File: field_trial/download_study_CSV.md 
         
  
