@@ -58,5 +58,9 @@ nav:
       - Download Data:
         - Frictionless Data Package: field_trial/download_study_fd.md 
         - CSV File: field_trial/download_study_CSV.md 
-        
+  - General Search Service:
+      - Introduction:         general_search/index.md      
+ 
+  - BLAST Service:
+      - Introduction:         BLAST/index.md      
  
