@@ -63,4 +63,8 @@ nav:
  
   - BLAST Service:
       - Introduction:         BLAST/index.md      
- 
+  - ' ': ' '
+  - ' ': ' '
+  - INSTALLATION (Developers):
+      - 'Building grassroots core':   installation/readme.md
+      - 'Sample database':            installation/getting_started.md
