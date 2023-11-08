@@ -68,3 +68,7 @@ nav:
   - INSTALLATION (Developers):
       - 'Building grassroots core':   installation/readme.md
       - 'Sample database':            installation/getting_started.md
+  - ' ': ' '
+  - ' ': ' '
+  - Mobile App (beta version):
+    - QR Scanner: mobile_app/index.md
