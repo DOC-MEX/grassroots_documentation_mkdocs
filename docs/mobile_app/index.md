@@ -1,7 +1,6 @@
 # Mobile App for Grassroots Field Trials
 
-
-## Description
+## Introduction
 
 The mobile app displays and submit the observations in field trials. It is written in Flutter and will available for both Android and iOS. The current version is a prototype and it is only available for Android.
 
@@ -11,31 +10,27 @@ The app is can be downloaded from the [Google Play Store](https://play.google.co
 
 At the moment there will be only one simple study with QR codes available for testing. 
 
-## Usage
+## Getting Started
 
-The unique ID for each plot in a study is encoded as a QR code. The app scans the QR code and retrieves the details of a given plot. To start using the app simply open the camera button and point the camera to a QR code. The app will automatically scan the QR code and retrieve the observations, if any, for the plot.
+Any study can be selected by browsing from the home screen. The user can select a study by clicking on the study name from a dropdown menu. 
 
 <div align="center">
-    <img src="screenshots/welcome.jpeg" width="250px"/>
-    <img src="screenshots/study.jpeg" width="250px"/>
+    <img src="screenshots/1_home.jpeg" width="250px"/>
 </div>
 
-To display the observation of a specific phenotype, the user can select the available phenotypes from the dropdown menu. The app will display a table of observations for the selected phenotype.
+Once a study is selected, the app will display a menu for selecting any plot by plot index. If the plot has observations recorded, the number of observations in that plot will be displayed below the plot index. The user then can select a phenotype to see the observations for that phenotype. A table with the observations for the selected phenotype will be displayed.
  
- <div align="center">
-    <img src="screenshots/dropdown.jpeg" width="250px"/>
-    <img src="screenshots/table_observations.jpeg" width="250px"/>
+<div align="center">
+    <img src="screenshots/2_study_page.jpeg" width="250px"/>
+    <img src="screenshots/3_table_observations.jpeg" width="250px"/>
 </div>
 
-If the plot has no observations, the app will display a message saying that there are no observations for the plot. The user can then enter new observations by clicking on the `Add Observation` button. The app will display a form where the user can enter the details of a new observation. The user can then submit the observation by clicking on the `Submit Observation` button.
+General details from the study can be displayed by clicking on the `View Study Details` button. 
 
- <div align="center">
-    <img src="screenshots/form.jpeg" width="250px"/>
+## Submitting Observations
+
+Once a plot is selected, the user can submit new observations by clicking on the `Add New Observation` button. 
+
+<div align="center">
+    <img src="screenshots/4_new_observation_form.jpeg" width="250px"/>
 </div>
-
-It is possible to submit as many observations as needed for a given plot. Everytime an observation is processed the form is reset and the user can enter a new observation. The return button goes back to the previous screen, and if at least one observation was submitted sucessfully, it will also refresh the tables of observations. 
-
- This a sample QR code for the plot 1 in the test study:
-![QR code for plot 1](QR_codes/1.png)
-
-The QR codes for the plots in the test study are available in the [QR_codes](QR_codes/QRs.zip) zip file. The QR codes are named after the plot id. For example, the QR code for plot 1 is in the file [1.png](QR_codes/1.png).

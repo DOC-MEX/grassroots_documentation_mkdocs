@@ -71,4 +71,5 @@ nav:
   - ' ': ' '
   - ' ': ' '
   - Mobile App (beta version):
-    - QR Scanner: mobile_app/index.md
+    - General Browsing: mobile_app/index.md
+    - QR Scanner: mobile_app/QR.md
