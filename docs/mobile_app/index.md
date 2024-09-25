@@ -37,7 +37,7 @@ There is only one validation in place at the moment which is for the plant heigh
 
 <div align="center">
     <img src="screenshots/4_edit_limits.jpeg" width="250px"/>
-    <img src="screenshots/4_new_observation_form.jpeg" width="250px"/>
+    <img src="screenshots/4_validation_error.jpeg" width="350px"/>
 </div>
 
 Once an observation is submitted, the form will be cleared and the user can enter another observation or move to the next plot by clicking on the `Move to Next Plot` button.
