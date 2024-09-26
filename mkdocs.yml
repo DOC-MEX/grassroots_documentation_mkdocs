@@ -36,6 +36,7 @@ plugins:
 markdown_extensions:
   - attr_list
   - md_in_html
+use_directory_urls: false  
 
 nav:
   - ' ': index.md
@@ -72,4 +73,4 @@ nav:
   - ' ': ' '
   - Mobile App (beta version):
     - General Browsing & Data Submission: mobile_app/index.md
-    - QR Scanner (in development): mobile_app/QR.md
+    - QR Scanner (in development): mobile_app/scanning.md
