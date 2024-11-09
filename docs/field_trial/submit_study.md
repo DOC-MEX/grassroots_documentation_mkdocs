@@ -134,6 +134,14 @@ values for each Plot entry row.
 
 Press the + button to add a new set of treatment factors, and under each of them press Add Row to add new Labels and Values.
 
+### Measured Variables
+
+These are the variables (phenotypes) that are measured in the study. They are usually detected and added when a spreadsheet with the plot observations and layout of the plots is uploaded in the [submit plots service](submit_plots.md). However, the observation variables can be also defined when the study is created or edited. To add a new variable, press the + button and then enter the name of the phenotype name. You add as many variables as needed.
+
+![Add Measured Variables](images/10_measured_variables.png)
+
+All the names of the measured variables can be searched and verified in the [search measured phenotype service](https://grassroots.tools/service/field_trial-search_measured_variables). See the [Measured Phenotype Service](search_measured_variables.md) documentation for more information.
+
 ### Contributors
 
 If more people are involved in a particular study, it is possible to acknowledge them by adding them as contributors. It is possible to add as many contributors as needed. To add extra contributors, press the + button and then enter their name and email address. optionally, you can also add role, affiliation and ORCID.
