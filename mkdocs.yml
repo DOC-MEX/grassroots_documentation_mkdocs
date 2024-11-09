@@ -1,5 +1,5 @@
 site_name: Grassroots Users Documentation
-  
+site_url: http://localhost:2000/grassroots/
 theme:
   name: material
   custom_dir: overrides
@@ -19,7 +19,7 @@ theme:
   features:
     - navigation.sections
 extra:
-    homepage: https://grassroots.tools/newdocs
+    homepage: https://grassroots.tools/documentation
     
     
     
@@ -38,21 +38,23 @@ markdown_extensions:
   - md_in_html
 
 nav:
-  - ' ': index.md
+  - Home: index.md
   - Field Trials:
       - Introduction:         field_trial/index.md
       - Submitting Data:
-        - Submitting programme: field_trial/submit_programme.md
-        - Submitting trials:     field_trial/submit_trial.md
-        - Submitting studies:   field_trial/submit_study.md
-        - Submitting plots:     field_trial/submit_plots.md
+        - Obtaining an ORCID: field_trial/orcid.md
+        - Submitting Programmes: field_trial/submit_programme.md
+        - Submitting Trials:     field_trial/submit_trial.md
+        - Submitting Locations:     field_trial/submit_location.md
+        - Submitting Studies:   field_trial/submit_study.md
+        - Submitting Plots:     field_trial/submit_plots.md
+        - Submitting Measured Variables:     field_trial/submit_measured_variables.md
       
       - Searching & Visualising Data:
-        - Main Field Trails Portal:  field_trial/fieldtrials_general_table.md
+        - Main Field Trials Portal:  field_trial/fieldtrials_general_table.md
         - Plot Data:     field_trial/fieldtrials_study_table.md
         - Heatmaps:     field_trial/heatmaps.md
-
-        - Field trials Search Portal:   field_trial/search_portal.md        
+        - Field Trials Search Portal:   field_trial/search_portal.md        
         - Measured Phenotype variables: field_trial/search_measured_variables.md
         - Treatments:                   field_trial/search_treatments.md
       - Download Data:
@@ -65,7 +67,7 @@ nav:
       - Introduction:         BLAST/index.md      
   - ' ': ' '
   - ' ': ' '
-  - INSTALLATION (Developers):
+  - Installation (Developers):
       - 'Building grassroots core':   installation/readme.md
       - 'Sample database':            installation/getting_started.md
   - ' ': ' '

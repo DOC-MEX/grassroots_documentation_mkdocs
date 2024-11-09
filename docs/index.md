@@ -6,7 +6,7 @@ hide:
 <!--- ![image info](/assets/grassroots-genomics-hero.jpg){align=right }  --->
 
 <div align="center">
-    <img src="/assets/grassroots-genomics-hero.jpg" width="200px"/>
+    <img src="assets/grassroots-genomics-hero.jpg" width="200px"/>
 </div>
 
 
