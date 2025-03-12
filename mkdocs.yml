@@ -41,36 +41,36 @@ use_directory_urls: false
 nav:
   - Home: index.md
   - Field Trials:
-      - Introduction:         docs/field_trial/index.md
+      - Introduction:         docs/services/field_trial/index.md
       - Submitting Data:
-        - Obtaining an ORCID: docs/field_trial/orcid.md
-        - Submitting Programmes: docs/field_trial/submit_programme.md
-        - Submitting Trials:     docs/field_trial/submit_trial.md
-        - Submitting Locations:     docs/field_trial/submit_location.md
-        - Submitting Studies:   docs/field_trial/submit_study.md
-        - Submitting Plots:     docs/field_trial/submit_plots.md
-        - Submitting Measured Variables:     docs/field_trial/submit_measured_variables.md
+        - Obtaining an ORCID: docs/services/field_trial/orcid.md
+        - Submitting Programmes: docs/services/field_trial/submit_programme.md
+        - Submitting Trials:     docs/services/field_trial/submit_trial.md
+        - Submitting Locations:     docs/services/field_trial/submit_location.md
+        - Submitting Studies:   docs/services/field_trial/submit_study.md
+        - Submitting Plots:     docs/services/field_trial/submit_plots.md
+        - Submitting Measured Variables:     docs/services/field_trial/submit_measured_variables.md
       
       - Searching & Visualising Data:
-        - Main Field Trials Portal:  docs/field_trial/fieldtrials_general_table.md
-        - Plot Data:     docs/field_trial/fieldtrials_study_table.md
-        - Heatmaps:     docs/field_trial/heatmaps.md
-        - Field Trials Search Portal:   docs/field_trial/search_portal.md        
-        - Measured Phenotype variables: docs/field_trial/search_measured_variables.md
-        - Treatments:                   docs/field_trial/search_treatments.md
+        - Main Field Trials Portal:  docs/services/field_trial/fieldtrials_general_table.md
+        - Plot Data:     docs/services/field_trial/fieldtrials_study_table.md
+        - Heatmaps:     docs/services/field_trial/heatmaps.md
+        - Field Trials Search Portal:   docs/services/field_trial/search_portal.md        
+        - Measured Phenotype variables: docs/services/field_trial/search_measured_variables.md
+        - Treatments:                   docs/services/field_trial/search_treatments.md
       - Download Data:
-        - Frictionless Data Package: docs/field_trial/download_study_fd.md 
-        - CSV File: docs/field_trial/download_study_CSV.md 
+        - Frictionless Data Package: docs/services/field_trial/download_study_fd.md 
+        - CSV File: docs/services/field_trial/download_study_CSV.md 
   - General Search Service:
-      - Introduction:         docs/general_search/index.md      
+      - Introduction:         docs/services/general_search/index.md      
  
   - BLAST Service:
-      - Introduction:         docs/BLAST/index.md      
+      - Introduction:         docs/services/BLAST/index.md      
   - ' ': ' '
   - ' ': ' '
   - Installation (Developers):
-      - 'Building grassroots core':   docs/installation/readme.md
-      - 'Sample database':            docs/installation/getting_started.md
+      - 'Building grassroots core':   docs/services/installation/readme.md
+      - 'Sample database':            docs/services/installation/getting_started.md
   - ' ': ' '
   - ' ': ' '
   - Mobile App (beta version):
