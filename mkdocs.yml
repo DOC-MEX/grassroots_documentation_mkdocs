@@ -1,6 +1,7 @@
 site_name: Grassroots Users Documentation
 site_url: https://grassroots.tools
-  name: material
+theme:
+  name:  material
   custom_dir: overrides
   logo: assets/logo-white.png
   palette:
