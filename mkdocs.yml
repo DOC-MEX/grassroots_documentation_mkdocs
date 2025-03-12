@@ -1,6 +1,5 @@
 site_name: Grassroots Users Documentation
-site_url: http://localhost:2000/grassroots/
-theme:
+site_url: https://grassroots.tools
   name: material
   custom_dir: overrides
   logo: assets/logo-white.png
@@ -41,39 +40,39 @@ use_directory_urls: false
 nav:
   - Home: index.md
   - Field Trials:
-      - Introduction:         field_trial/index.md
+      - Introduction:         docs/field_trial/index.md
       - Submitting Data:
-        - Obtaining an ORCID: field_trial/orcid.md
-        - Submitting Programmes: field_trial/submit_programme.md
-        - Submitting Trials:     field_trial/submit_trial.md
-        - Submitting Locations:     field_trial/submit_location.md
-        - Submitting Studies:   field_trial/submit_study.md
-        - Submitting Plots:     field_trial/submit_plots.md
-        - Submitting Measured Variables:     field_trial/submit_measured_variables.md
+        - Obtaining an ORCID: docs/field_trial/orcid.md
+        - Submitting Programmes: docs/field_trial/submit_programme.md
+        - Submitting Trials:     docs/field_trial/submit_trial.md
+        - Submitting Locations:     docs/field_trial/submit_location.md
+        - Submitting Studies:   docs/field_trial/submit_study.md
+        - Submitting Plots:     docs/field_trial/submit_plots.md
+        - Submitting Measured Variables:     docs/field_trial/submit_measured_variables.md
       
       - Searching & Visualising Data:
-        - Main Field Trials Portal:  field_trial/fieldtrials_general_table.md
-        - Plot Data:     field_trial/fieldtrials_study_table.md
-        - Heatmaps:     field_trial/heatmaps.md
-        - Field Trials Search Portal:   field_trial/search_portal.md        
-        - Measured Phenotype variables: field_trial/search_measured_variables.md
-        - Treatments:                   field_trial/search_treatments.md
+        - Main Field Trials Portal:  docs/field_trial/fieldtrials_general_table.md
+        - Plot Data:     docs/field_trial/fieldtrials_study_table.md
+        - Heatmaps:     docs/field_trial/heatmaps.md
+        - Field Trials Search Portal:   docs/field_trial/search_portal.md        
+        - Measured Phenotype variables: docs/field_trial/search_measured_variables.md
+        - Treatments:                   docs/field_trial/search_treatments.md
       - Download Data:
-        - Frictionless Data Package: field_trial/download_study_fd.md 
-        - CSV File: field_trial/download_study_CSV.md 
+        - Frictionless Data Package: docs/field_trial/download_study_fd.md 
+        - CSV File: docs/field_trial/download_study_CSV.md 
   - General Search Service:
-      - Introduction:         general_search/index.md      
+      - Introduction:         docs/general_search/index.md      
  
   - BLAST Service:
-      - Introduction:         BLAST/index.md      
+      - Introduction:         docs/BLAST/index.md      
   - ' ': ' '
   - ' ': ' '
   - Installation (Developers):
-      - 'Building grassroots core':   installation/readme.md
-      - 'Sample database':            installation/getting_started.md
+      - 'Building grassroots core':   docs/installation/readme.md
+      - 'Sample database':            docs/installation/getting_started.md
   - ' ': ' '
   - ' ': ' '
   - Mobile App (beta version):
-    - General Browsing & Data Submission: mobile_app/index.md
-    - QR Scanner (in development): mobile_app/scanning.md
+    - General Browsing & Data Submission: docs/mobile_app/index.md
+    - QR Scanner (in development): docs/mobile_app/scanning.md
 
